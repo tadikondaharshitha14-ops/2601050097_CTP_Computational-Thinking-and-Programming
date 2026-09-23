@@ -1,5 +1,3 @@
-
-
 def merge_sort(arr):
 
     # Base condition
