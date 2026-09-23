@@ -1,4 +1,4 @@
-# Merge Sort using Divide and Conquer
+# Merge Sort using Divide and Conquer 
 
 def merge_sort(arr):
 
