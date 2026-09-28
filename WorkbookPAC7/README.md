@@ -1,4 +1,4 @@
-# Producer-Consumer Application
+**Producer-Consumer Application**
 
 **1. Objective**
 
@@ -8,31 +8,45 @@ To develop a simple Producer-Consumer application using threading, multiprocessi
 
 **The program accepts:**
 
-1. Number of items to produce
-2. Items produced by the producer
-4. Size of the shared buffer
+Number of items to produce
+
+Items produced by the producer
+
+Size of the shared buffer
 
 **3. Output**
 
 **The program displays:**
 
-1. Items produced by the Producer
-2. Items consumed by the Consumer
-3. Producer and Consumer execution
-4. Synchronization between Producer and Consumer
-5. Completion message
+Items produced by the Producer
+
+Items consumed by the Consumer
+
+Producer and Consumer execution
+
+Synchronization between Producer and Consumer
+
+Completion message
 
 **4. Algorithm**
 
-1. Start.
-2. Create a shared buffer.
-3. Create Producer and Consumer.
-4. Use threading or multiprocessing.
-5. Use synchronization primitives to control the buffer.
-6. Producer adds items and Consumer removes items.
-7. Repeat until all items are processed.
-8. Display the results.
-9. Stop.
+Start.
+
+Create a shared buffer.
+
+Create Producer and Consumer.
+
+Use threading or multiprocessing.
+
+Use synchronization primitives to control the buffer.
+
+Producer adds items and Consumer removes items.
+
+Repeat until all items are processed.
+
+Display the results.
+
+Stop.
 
 **5. Time and Space Complexity**
 
@@ -40,12 +54,10 @@ To develop a simple Producer-Consumer application using threading, multiprocessi
 
 O(n)
 
-Where `n` is the number of items produced and consumed.
+Where n is the number of items produced and consumed.
 
 **Space Complexity**
 
 O(n)
 
 The shared buffer stores the items waiting to be consumed.
-
-
