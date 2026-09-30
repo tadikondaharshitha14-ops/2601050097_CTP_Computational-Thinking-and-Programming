@@ -45,19 +45,27 @@ Time Complexity: O(1)
 Space Complexity: O(1)
 
 **6. AI Success**
-   
-Found simple code improvements.
 
-Suggested test cases.
+AI reviewed the Python code.
 
-Helped improve code readability.
+AI suggested better code organization.
 
-Helped create documentation.
+AI helped with refactoring.
 
-**7. Manual Intervention**
+AI helped create test cases.
 
-Verified AI-generated code.
+AI helped identify that the code works correctly.
 
-Corrected incorrect suggestions if any.
+**7. Manual Changes / Intervention**
 
-Tested the final application manually.
+Checked the AI suggestions manually.
+
+Verified the program by running python app.py.
+
+Ran python -m pytest.
+
+Confirmed that 2 tests passed.
+
+Accepted only the useful AI suggestions.
+
+
